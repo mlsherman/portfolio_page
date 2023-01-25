@@ -404,7 +404,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .portfolio {
         margin: 0 auto;
         max-width: 150px;
@@ -412,7 +412,7 @@ header {
         grid-gap: 2em;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
-}
+} */
 
 @media (min-width: 400px) {
     .portfolio__item {
@@ -427,8 +427,8 @@ header {
             transform 750ms cubic-bezier(.5, 0, .5, 1),
             opacity 250ms linear;
         object-fit: fill;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        /* width: 50%; */
     }
   }
 
