@@ -404,18 +404,18 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
 }
 
-/* @media only screen 
+@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (-webkit-min-device-pixel-ratio: 1) { 
         .portfolio {
         margin: 0 auto;
         max-width: 1000px;
         display: grid;
         grid-gap: 2em;
-        grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
     }
-} */
+}
 
 .portfolio__item {
     background: var(--color-accent);
