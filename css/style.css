@@ -404,8 +404,11 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 500px) {
-    .portfolio {
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+        .portfolio {
         margin: 0 auto;
         max-width: 1000px;
         display: grid;
