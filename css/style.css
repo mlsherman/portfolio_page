@@ -421,17 +421,6 @@ header {
 }
 }
 
-@media (max-width: 400px) {
-    .portfolio__img {
-        transition: 
-            transform 750ms cubic-bezier(.5, 0, .5, 1),
-            opacity 250ms linear;
-        object-fit: fill;
-        height: 100%;
-        /* width: 50%; */
-    }
-  }
-
 .portfolio__img {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
@@ -439,6 +428,16 @@ header {
     object-fit: cover;
     height: 100%;
 }
+
+@media (max-width: 400px) {
+    .portfolio__img {
+        transition: 
+            transform 750ms cubic-bezier(.5, 0, .5, 1),
+            opacity 250ms linear;
+        object-fit: cover;
+        height: 50%;
+    }
+  }
 
 .portfolio__item:focus {
     position: relative;
