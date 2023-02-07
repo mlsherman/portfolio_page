@@ -417,7 +417,7 @@ header {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 200px 200px 200px;
+        grid-template-rows: auto;
 }
 }
 
