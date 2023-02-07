@@ -412,16 +412,16 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 650px) {
+@media (max-width: 550px) {
     .portfolio {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 195px 195px 195px;
+        grid-template-rows: 200px 200px 200px;
 }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 5500px) {
     .portfolio__item {
         background: var(--color-accent);
         overflow: hidden;
@@ -539,6 +539,3 @@ header {
 
 }
 
-.marco-img {
-    border-radius: 50px;
-}
