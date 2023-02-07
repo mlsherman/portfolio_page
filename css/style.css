@@ -255,6 +255,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    width: 75%;
 }
 
 .section__subtitle--intro {
@@ -356,6 +357,13 @@ header {
     box-shadow: var(--bs);
 }
 
+@media (max-width: 600px) {
+    .about-me__img {
+        width: 60%;
+            }
+}
+
+
 @media (min-width: 600px) {
     .about-me {
         display: grid;
@@ -404,15 +412,12 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .portfolio {
-        margin: 0 auto;
-        max-width: 150px;
-        display: flex;
-        flex-direction: column;
-        grid-gap: 2em;
-        grid-template-columns: repeat(minmax(200px, 1fr));
-    }
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 170px 170px 170px 170px 170px 170px;
+}
 }
 
 @media (min-width: 400px) {
